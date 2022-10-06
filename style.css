@@ -1,0 +1,85 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ 
+}
+body{
+ height: 100vh;
+}
+
+.navbar {
+ background-color: #000000;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ justify-items: center;
+}
+
+.grow-list {
+ position: relative;
+ right: 100px;
+}
+
+.list {
+ list-style-type: none;
+ display: flex;
+}
+
+.list-item {
+ color: #ffffff;
+ padding: 10px 20px;
+ font-size: 20px;
+ margin: 20px;
+}
+
+.line {
+ border-left: 1px solid #ffffff;
+ height: 50px;
+ position: absolute;
+ left: 24%;
+}
+
+
+.hero {
+ background-image: url(./assets/bg.png);
+ height: 854px;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ justify-items: center;
+}
+
+.button-small {
+ background-color: #c533ce;
+ border: 0;
+ color: #ffffff;
+ padding: 10px 20px;
+ font-size: 20px;
+ border-radius: 10px;
+}
+
+.hero-heading {
+ color: #ffffff;
+ font-size: 70px;
+ text-align: center;
+}
+
+.hero-description {
+ color: #ffffff;
+ font-size: 40px;
+}
+
+.button-large {
+ background-color: #c533ce;
+ border: 0;
+ color: #ffffff;
+ padding: 20px 30px;
+ margin-top: 20px;
+ font-size: 20px;
+ border-radius: 10px;
+}
